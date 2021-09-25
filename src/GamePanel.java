@@ -142,7 +142,6 @@ public class GamePanel extends JPanel implements ActionListener {
         g.setFont(new Font ("Ink Free",Font.BOLD,75));
         FontMetrics metrics2= getFontMetrics(g.getFont());
         g.drawString("Game Over", (SCREEN_WIDTH - metrics2.stringWidth("Game Over"))/2, SCREEN_HEIGHT/2);
-
     }
 
     @Override
@@ -153,6 +152,18 @@ public class GamePanel extends JPanel implements ActionListener {
             checkCollisions();
         }
         repaint();
+    }
+
+    public void restart(){
+        bodyParts = 6;
+        applesEaten = 0;
+        direction = 'R';
+        for(int i = 0; i < GAME_UNITS; i++){
+            x[i] = 0;
+            y[i] = 0;
+        }
+        timer.stop();
+        startGame();
     }
 
     public class MyKeyAdapter extends KeyAdapter {
@@ -178,6 +189,9 @@ public class GamePanel extends JPanel implements ActionListener {
                     if (direction!='U'){
                         direction='D';
                     }
+                    break;
+                case KeyEvent.VK_R:
+                    restart();
                     break;
             }
         }

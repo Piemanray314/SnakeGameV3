@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" name="Changes" comment="Hi">
+    <list default="true" id="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" name="Changes" comment="Second Edition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
+    <list id="843edeac-3902-46e5-95f0-42311ae91e50" name="Changes by utkar" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632598608587</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Edition">
+      <created>1632598736844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632598736844</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,7 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hi" />
+    <MESSAGE value="Second Edition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Edition" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
