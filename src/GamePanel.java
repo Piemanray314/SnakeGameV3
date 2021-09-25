@@ -22,6 +22,7 @@ public class GamePanel extends JPanel implements ActionListener {
     Random random;
 
     GamePanel(){
+        GameFrame.restart = false;
         random = new Random();
         this.setPreferredSize(new Dimension(SCREEN_WIDTH, SCREEN_HEIGHT));
         this.setBackground(Color.black);
@@ -155,6 +156,7 @@ public class GamePanel extends JPanel implements ActionListener {
     }
 
     public void restart(){
+        GameFrame.restart = true;
         bodyParts = 6;
         applesEaten = 0;
         direction = 'R';
