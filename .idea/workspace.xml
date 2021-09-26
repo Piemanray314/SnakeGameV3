@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" name="Changes" comment="Second Edition">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-    </list>
+    <list default="true" id="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" name="Changes" comment="Fourth Edition" />
     <list id="ccff8759-4c51-4ac9-bdcd-84fe4cbf3c54" name="Changes by utkar" comment="">
       <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
@@ -28,36 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/GamePanel.java">
-      <ranges>
-        <range start1="19" end1="20" start2="19" end2="20" changelist="ccff8759-4c51-4ac9-bdcd-84fe4cbf3c54" />
-        <range start1="24" end1="24" start2="24" end2="25" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="144" end1="144" start2="145" end2="147" changelist="ccff8759-4c51-4ac9-bdcd-84fe4cbf3c54" />
-        <range start1="157" end1="157" start2="160" end2="161" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/GameFrame.java">
-      <ranges>
-        <range start1="1" end1="1" start2="1" end2="2" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="5" end1="6" start2="6" end2="7" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="11" end1="12" start2="12" end2="17" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="14" end1="15" start2="19" end2="25" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="18" end1="19" start2="28" end2="28" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="23" end1="23" start2="32" end2="33" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="24" end1="26" start2="34" end2="34" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="28" end1="28" start2="36" end2="39" changelist="ccff8759-4c51-4ac9-bdcd-84fe4cbf3c54" />
-        <range start1="30" end1="31" start2="41" end2="42" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="33" end1="33" start2="44" end2="45" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="35" end1="36" start2="47" end2="50" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="40" end1="41" start2="54" end2="57" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="46" end1="51" start2="62" end2="62" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="53" end1="53" start2="64" end2="75" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="54" end1="57" start2="76" end2="77" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-        <range start1="59" end1="60" start2="79" end2="80" changelist="bdd534b5-27bf-4c2d-ad42-9ad9896c3978" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="1ydqwPm8Ek1Y0ZsE6bXP3CB971V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -122,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632600828741</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fourth Edition">
+      <created>1632604690662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632604690662</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hi" />
     <MESSAGE value="Second Edition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Edition" />
+    <MESSAGE value="Fourth Edition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourth Edition" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
