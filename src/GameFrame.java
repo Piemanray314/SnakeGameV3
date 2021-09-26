@@ -17,15 +17,15 @@ public class GameFrame extends JFrame implements ActionListener {
     Timer timer1 = new Timer(500, this);
 
     GameFrame(){
-        border = BorderFactory.createLineBorder(Color.GREEN, 3);
-        noTBorder = BorderFactory.createMatteBorder(0, 3, 3, 3, Color.GREEN);
-        noLBorder = BorderFactory.createMatteBorder(3, 0, 3, 3, Color.GREEN);
+        border = BorderFactory.createLineBorder(Color.gray, 3);
+        noTBorder = BorderFactory.createMatteBorder(0, 3, 3, 3, Color.gray);
+        noLBorder = BorderFactory.createMatteBorder(3, 0, 3, 3, Color.gray);
 
         timer1.start();
         label.setText("I like to eat muffins!"); // Sets the text of the label
         label.setHorizontalTextPosition(JLabel.CENTER); // This would make the imageLabel and text overlap. Default is RIGHT.
         label.setVerticalTextPosition(JLabel.TOP); // Set text to be TOP, CENTER, or BOTTOM of imageLabel
-        label.setForeground(new Color(0x00FF00)); // Set font color of text
+        label.setForeground(new Color(0x808080)); // Set font color of text
         label.setBackground(Color.BLACK); // Sets the background to black
         label.setOpaque(true); // Displays the background color, as it paints all of the label.
         label.setVerticalAlignment(JLabel.CENTER); // CENTER default. Basically meaning everything is CENTERED. Even if resized.
@@ -33,7 +33,10 @@ public class GameFrame extends JFrame implements ActionListener {
         label.setBorder(border);
 
         button.addActionListener(this);
-        button.setText("Click me or else");
+        button.setText("Restart");
+        button.setBorder(noLBorder);
+        button.setBackground(Color.black);
+        button.setForeground(new Color(0x808080));
 
         labelPanel.setBackground(Color.cyan);
         labelPanel.setLayout(new GridLayout());
@@ -60,15 +63,15 @@ public class GameFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if(GamePanel.running) {
-            label.setText("It is running");
+            label.setText("Game Running");
             labelPanel.setVisible(false);
             panel.setBorder(border);
-            this.setSize(new Dimension(612, 636));
+            this.setSize(new Dimension(616, 639));
         } else {
-            label.setText("Not running");
+            label.setText("Game Not Running");
             labelPanel.setVisible(true);
             panel.setBorder(noTBorder);
-            this.setSize(new Dimension(612, 686));
+            this.setSize(new Dimension(616, 689));
         }
         if(e.getSource() == button){
             panel.restart();
